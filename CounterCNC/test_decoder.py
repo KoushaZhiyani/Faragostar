@@ -349,7 +349,7 @@ class CNCSessionManager:
         try:
             url = "https://api.sms.ir/v1/send/bulk"
             headers = {
-                "X-API-KEY": "PBapxUHXiM0iPFlMp0r6jCXTxT7XdvDBBtoHb8T7gRApq9cQ",
+                "X-API-KEY": "PBapxU...",
                 "Content-Type": "application/json"
             }
             payload = {
