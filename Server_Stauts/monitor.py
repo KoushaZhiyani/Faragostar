@@ -42,12 +42,12 @@ def send_sms_ir(message):
         url = "https://api.sms.ir/v1/send/bulk"
 
         headers = {
-            "X-API-KEY": "PBapxUHXiM0iPFlMp0r6jCXTxT7XdvDBBtoHb8T7gRApq9cQ",
+            "X-API-KEY": "PBapxUHXiM0iPFlMp0r6...",
             "Content-Type": "application/json"
         }
 
         payload = {
-            "lineNumber": 30002128001557,  # شماره ارسال
+            "lineNumber": 30002,  # شماره ارسال
             "messageText": message,
             "mobiles": [
                 "09394413663"
