@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Server Monitoring</title>
+
+    <style>
+    :root {
+    --bg-main: #020617;
+    --bg-soft: #020617;
+    --card: #0b1220;
+    --border: rgba(148,163,184,.12);
+
+    --text-main: #e5e7eb;
+    --text-muted: #94a3b8;
+
+    --green: #22c55e;
+    --red: #ef4444;
+    --yellow: #facc15;
+    --blue: #38bdf8;
+    --purple: #818cf8;
+
+    --radius: 14px;
+    --radius-sm: 10px;
+
+    --transition: .25s cubic-bezier(.4,0,.2,1);
+}
+
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+    font-family: "Inter", "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(56,189,248,.08), transparent),
+        radial-gradient(800px 400px at 90% 10%, rgba(129,140,248,.06), transparent),
+        var(--bg-main);
+    color: var(--text-main);
+    direction: rtl;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 20px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(2,6,23,.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+}
+
+header h1 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -.3px;
+}
+
+header span {
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+/* Main */
+main {
+    padding: 32px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* Card */
+.card {
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,.02),
+        rgba(255,255,255,0)
+    ), var(--card);
+
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    margin-bottom: 28px;
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,.45),
+        inset 0 1px 0 rgba(255,255,255,.03);
+
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 30px 60px rgba(0,0,0,.55);
+}
+
+.card h2 {
+    margin: 0 0 18px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    padding: 14px 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+td {
+    padding: 16px 12px;
+    font-size: 13px;
+    border-bottom: 1px solid var(--border);
+}
+
+tbody tr {
+    transition: background var(--transition);
+}
+
+tbody tr:hover {
+    background: rgba(148,163,184,.05);
+}
+
+/* Status Badge */
+.status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .4px;
+}
+
+.status::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.online {
+    background: rgba(34,197,94,.15);
+    color: var(--green);
+}
+
+.online::before {
+    background: var(--green);
+    box-shadow: 0 0 8px var(--green);
+}
+
+.offline {
+    background: rgba(239,68,68,.15);
+    color: var(--red);
+}
+
+.offline::before {
+    background: var(--red);
+}
+
+/* Progress */
+.progress {
+    margin-top: 6px;
+    height: 6px;
+    background: rgba(148,163,184,.15);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #22c55e, #4ade80);
+    transition: width .6s ease;
+}
+
+.progress-bar.warn {
+    background: linear-gradient(90deg, #facc15, #fde047);
+}
+
+.progress-bar.danger {
+    background: linear-gradient(90deg, #ef4444, #f87171);
+}
+
+/* Forms */
+form {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+input {
+    background: rgba(2,6,23,.6);
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    padding: 12px 14px;
+    border-radius: var(--radius-sm);
+    min-width: 220px;
+    outline: none;
+    transition: border var(--transition), box-shadow var(--transition);
+}
+
+input::placeholder {
+    color: var(--text-muted);
+}
+
+input:focus {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 3px rgba(56,189,248,.2);
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(135deg, var(--blue), var(--purple));
+    border: none;
+    padding: 12px 22px;
+    border-radius: var(--radius-sm);
+    color: #020617;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform var(--transition), box-shadow var(--transition), opacity var(--transition);
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(56,189,248,.35);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Remove Button */
+.remove-btn {
+    background: linear-gradient(135deg, #ef4444, #f87171);
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: white;
+}
+
+.remove-btn:hover {
+    box-shadow: 0 6px 16px rgba(239,68,68,.4);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    main {
+        padding: 20px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    header h1 {
+        font-size: 16px;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📊 Server Monitoring Dashboard</h1>
+    <span class="muted">Auto Refresh every 2 seconds</span>
+</header>
+
+<main>
+
+    <div class="card">
+        <h2>Server Status</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Server</th>
+                    <th>Status</th>
+                    <th>CPU</th>
+                    <th>RAM</th>
+                    <th>Disk</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody id="statusBody">
+            {% for srv in servers %}
+                {% set st = status.get(srv.ip + '::' + srv.drive, {}) %}
+                <tr id="row-{{ srv.ip }}">
+                    <td>{{ srv.name }}<br><small class="muted">{{ srv.ip }}</small></td>
+
+                    {% if st.online %}
+                        <td><span class="status online">ONLINE</span></td>
+
+                        <td>
+                            {{ st.cpu }}%
+                            <div class="progress">
+                                <div class="progress-bar
+                                    {% if st.cpu > 80 %}danger{% elif st.cpu > 60 %}warn{% endif %}"
+                                    style="width: {{ st.cpu }}%">
+                                </div>
+                            </div>
+                        </td>
+
+                        <td>
+                            {{ st.memory.percent }}%
+                            <small class="muted">
+                                ({{ st.memory.used_gb }} / {{ st.memory.total_gb }})
+                            </small>
+
+                            <div class="progress">
+                                <div class="progress-bar
+                                    {% if st.memory.percent > 80 %}danger{% elif st.memory.percent > 60 %}warn{% endif %}"
+                                    style="width: {{ st.memory.percent }}%">
+                                </div>
+                            </div>
+                        </td>
+
+                        <td>
+                            {{ st.disk.percent }}%
+                            <small class="muted">
+                                ({{ st.disk.used_gb }} / {{ st.disk.total_gb }})
+                            </small>
+
+                            <div class="progress">
+                                <div class="progress-bar
+                                    {% if st.disk.percent > 80 %}danger{% elif st.disk.percent > 60 %}warn{% endif %}"
+                                    style="width: {{ st.disk.percent }}%">
+                                </div>
+                            </div>
+                        </td>
+
+                    {% else %}
+                        <td><span class="status offline">OFFLINE</span></td>
+                        <td colspan="3">{{ st.error or 'No Response' }}</td>
+                    {% endif %}
+                    
+                    <td>
+                        <button class="remove-btn" onclick="removeServer('{{ srv.ip }}')">
+                            ❌ Remove
+                        </button>
+                    </td>
+                </tr>
+            {% endfor %}
+
+            {% if not servers %}
+                <tr><td colspan="6">No servers registered</td></tr>
+            {% endif %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- <div class="card">
+        <h2>➕ Add New Server</h2>
+        <form id="addForm">
+            <input type="text" id="ip" placeholder="Server IP" required>
+            <input type="text" id="name" placeholder="Server Name">
+            
+            <select id="drive" style="background: rgba(2,6,23,.6); border: 1px solid var(--border); color: var(--text-main); padding: 12px 14px; border-radius: var(--radius-sm); min-width: 100px; outline: none;">
+                <option value="C:">C:</option>
+                <option value="D:" selected>D:</option>
+                <option value="E:">E:</option>
+                <option value="F:">F:</option>
+                <option value="G:">G:</option>
+                <option value="H:">H:</option>
+                <option value="I:">I:</option>
+                <option value="J:">J:</option>
+            </select>
+            
+            <button type="submit">Add Server</button>
+        </form>
+    </div> -->
+
+
+</main>
+
+<footer>
+    Server Monitoring Dashboard • v1.0
+</footer>
+<script>
+/* =========================
+   Metric Cells
+========================= */
+
+// CPU (فقط درصد)
+function metricCell(val) {
+    if (val === undefined || val === null) return `<td>-</td>`;
+    let cls = val > 80 ? 'danger' : val > 60 ? 'warn' : '';
+    return `
+    <td>
+        ${val}%
+        <div class="progress">
+            <div class="progress-bar ${cls}" style="width:${val}%"></div>
+        </div>
+    </td>`;
+}
+
+// RAM / Disk (درصد + جزئیات GB)
+function metricCellDetail(percent, used, total) {
+    if (percent === undefined || used === undefined || total === undefined)
+        return `<td>-</td>`;
+
+    let cls = percent > 80 ? 'danger' : percent > 60 ? 'warn' : '';
+
+    return `
+    <td>
+        ${percent}%
+        <small class="muted">(${used}  / ${total} )</small>
+        <div class="progress">
+            <div class="progress-bar ${cls}" style="width:${percent}%"></div>
+        </div>
+    </td>`;
+}
+
+/* =========================
+   Refresh Status
+========================= */
+
+async function refreshStatus() {
+    try {
+        const [serversRes, statusRes] = await Promise.all([
+            fetch('/api/servers'),
+            fetch('/api/status')
+        ]);
+
+        const servers = await serversRes.json();
+        const status = await statusRes.json();
+
+        const body = document.getElementById('statusBody');
+        body.innerHTML = '';
+
+        servers.forEach(srv => {
+            const st = status[srv.ip + '::' + srv.drive] || {};
+
+            let row = '';
+
+            if (st.online) {
+                row = `
+                <tr id="row-${srv.ip}">
+                    <td>
+                        ${srv.name}
+                        <br><small class="muted">${srv.ip}</small>
+                    </td>
+
+                    <td><span class="status online">ONLINE</span></td>
+
+                    ${metricCell(st.cpu)}
+                    ${metricCellDetail(
+                        st.memory?.percent,
+                        st.memory?.used_gb,
+                        st.memory?.total_gb
+                    )}
+                    ${metricCellDetail(
+                        st.disk?.percent,
+                        st.disk?.used_gb,
+                        st.disk?.total_gb
+                    )}
+
+                    <td>
+                        <button class="remove-btn" onclick="removeServer('${srv.ip}', '${srv.drive}')">
+                            ❌ Delete
+                        </button>
+                    </td>
+                </tr>`;
+            } else {
+                row = `
+                <tr id="row-${srv.ip}">
+                    <td>
+                        ${srv.name}
+                        <br><small class="muted">${srv.ip}</small>
+                    </td>
+
+                    <td><span class="status offline">OFFLINE</span></td>
+
+                    <td colspan="3">${st.error || 'No Response'}</td>
+
+                    <td>
+                        <button class="remove-btn" onclick="removeServer('${srv.ip}')">
+                            ❌ Delete
+                        </button>
+                    </td>
+                </tr>`;
+            }
+
+            body.insertAdjacentHTML('beforeend', row);
+        });
+
+    } catch (err) {
+        console.error('Refresh error:', err);
+    }
+}
+
+/* =========================
+   Remove Server
+========================= */
+async function removeServer(ip, drive) {
+    if (!confirm(`آیا از حذف سرور ${ip} (درایو ${drive}) مطمئن هستید؟`)) return;
+
+    try {
+        const url = `/api/servers/${encodeURIComponent(ip)}?drive=${encodeURIComponent(drive)}`;
+        const res = await fetch(url, { method: 'DELETE' });
+
+        if (res.ok) {
+            // ردیف را با شناسه‌ی یکتا پیدا و حذف کن
+            const row = document.getElementById(`row-${ip}-${drive}`);
+            if (row) row.remove();
+            alert('✅ سرور و درایو حذف شد');
+        } else {
+            alert('❌ خطا در حذف سرور');
+        }
+    } catch (error) {
+        console.error(error);
+        alert('❌ خطا در ارتباط با سرور');
+    }
+}
+
+/* =========================
+   Auto Refresh
+========================= */
+
+setInterval(refreshStatus, 2000);
+refreshStatus();
+
+
+/* =========================
+   Add Server (No Reload)
+========================= */
+
+document.getElementById('addForm').addEventListener('submit', async e => {
+    e.preventDefault();
+
+    const ip = document.getElementById('ip').value.trim();
+    const name = document.getElementById('name').value.trim();
+    const drive = document.getElementById('drive').value; // دریافت درایو انتخاب شده
+
+    if (!ip) return;
+
+    const res = await fetch('/api/servers', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ip, name, drive }) // ارسال درایو به سرور
+    });
+
+    if (res.ok) {
+        document.getElementById('ip').value = '';
+        document.getElementById('name').value = '';
+        document.getElementById('drive').value = 'D:'; // بازنشانی به پیش‌فرض
+        refreshStatus();
+    } else {
+        alert((await res.json()).error);
+    }
+});
+
+</script>
+
+    
+</body>
+</html>

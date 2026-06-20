@@ -1,0 +1,48 @@
+﻿[
+    {
+        "Computer":  "192.168.0.194",
+        "CPU":  10,
+        "Memory":  {
+                       "used_gb":  6.32,
+                       "total_gb":  7.85,
+                       "percent":  80.51,
+                       "PSComputerName":  "192.168.0.194",
+                       "RunspaceId":  "fb35ef53-67bf-4660-9e8d-78eb9eb7e189",
+                       "PSShowComputerName":  true
+                   },
+        "Disk":  {
+                     "used_gb":  73.69,
+                     "drive":  "C:",
+                     "percent":  44.61,
+                     "total_gb":  165.19,
+                     "free_gb":  91.5,
+                     "PSComputerName":  "192.168.0.194",
+                     "RunspaceId":  "d73e8f71-784d-4737-9fec-1bfff8465d7b",
+                     "PSShowComputerName":  true
+                 },
+        "Time":  "2026-05-10 12:21:20"
+    },
+    {
+        "Computer":  "192.168.0.194",
+        "CPU":  5,
+        "Memory":  {
+                       "used_gb":  6.3,
+                       "total_gb":  7.85,
+                       "percent":  80.25,
+                       "PSComputerName":  "192.168.0.194",
+                       "RunspaceId":  "344a3fdb-02c1-4e18-a688-573c42f96a23",
+                       "PSShowComputerName":  true
+                   },
+        "Disk":  {
+                     "used_gb":  20.68,
+                     "drive":  "D:",
+                     "percent":  28.54,
+                     "total_gb":  72.46,
+                     "free_gb":  51.78,
+                     "PSComputerName":  "192.168.0.194",
+                     "RunspaceId":  "f60faeb1-b423-49f4-9101-cbc82bd9ee40",
+                     "PSShowComputerName":  true
+                 },
+        "Time":  "2026-05-10 12:21:23"
+    }
+]

@@ -1,0 +1,314 @@
+2025-12-13 12:45:24,766 - INFO - Start Processing CustomerProcessor
+2025-12-13 12:45:25,505 - INFO - Finish Processing CustomerProcessor
+2025-12-13 12:45:25,505 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 12:50:36,590 - INFO - Start Processing CustomerProcessor
+2025-12-13 12:50:37,680 - INFO - Finish Processing CustomerProcessor
+2025-12-13 12:50:37,681 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 12:51:01,168 - INFO - Start Processing CustomerProcessor
+2025-12-13 12:51:01,939 - INFO - Finish Processing CustomerProcessor
+2025-12-13 12:51:01,939 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 12:52:22,008 - INFO - Start Processing CustomerProcessor
+2025-12-13 12:52:22,695 - INFO - Finish Processing CustomerProcessor
+2025-12-13 12:52:22,695 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 12:52:23,651 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 12:53:05,846 - INFO - Start Processing CustomerProcessor
+2025-12-13 12:53:07,016 - INFO - Finish Processing CustomerProcessor
+2025-12-13 12:53:07,017 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 12:53:07,784 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:00:16,890 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:00:17,534 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:00:17,535 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:00:18,023 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:00:40,286 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:00:41,105 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:00:41,105 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:00:41,672 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:02:00,475 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:02:01,091 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:02:01,091 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:02:01,772 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:02:22,379 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:02:23,254 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:02:23,254 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:02:23,930 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:05:39,634 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:05:40,660 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:05:40,660 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:05:41,393 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:06:33,849 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:06:34,476 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:06:34,477 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:06:34,973 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:07:02,871 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:07:03,519 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:07:03,520 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:07:04,177 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:07:15,349 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:07:16,381 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:07:16,381 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:07:16,819 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:07:53,887 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:07:54,524 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:07:54,524 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:07:55,246 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:10:56,659 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:10:57,494 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:10:57,494 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:10:58,336 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:11:49,846 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:11:50,644 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:11:50,644 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:11:51,153 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:13:12,748 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:13:13,359 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:13:13,359 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:13:14,038 - INFO - End Processing MashhadCustomerProcessor
+2025-12-13 13:19:45,659 - INFO - Start Processing CustomerProcessor
+2025-12-13 13:19:46,706 - INFO - Finish Processing CustomerProcessor
+2025-12-13 13:19:46,706 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-13 13:19:47,413 - INFO - End Processing MashhadCustomerProcessor
+2025-12-28 09:08:38,120 - INFO - Start Processing CustomerProcessor
+2025-12-28 09:08:38,946 - INFO - Finish Processing CustomerProcessor
+2025-12-28 09:08:38,946 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-28 09:08:39,475 - INFO - End Processing MashhadCustomerProcessor
+2025-12-29 11:54:43,276 - INFO - Start Processing CustomerProcessor
+2025-12-29 11:54:44,042 - INFO - Finish Processing CustomerProcessor
+2025-12-29 11:54:44,042 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-29 11:54:44,882 - INFO - End Processing MashhadCustomerProcessor
+2025-12-29 12:13:35,807 - INFO - Start Processing CustomerProcessor
+2025-12-29 12:13:37,030 - INFO - Finish Processing CustomerProcessor
+2025-12-29 12:13:37,030 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-29 12:13:38,030 - INFO - End Processing MashhadCustomerProcessor
+2025-12-29 12:16:49,475 - INFO - Start Processing CustomerProcessor
+2025-12-29 12:16:50,601 - INFO - Finish Processing CustomerProcessor
+2025-12-29 12:16:50,601 - INFO - Start Processing MashhadCustomerProcessor
+2025-12-29 12:16:51,463 - INFO - End Processing MashhadCustomerProcessor
+2026-01-04 08:14:18,038 - INFO - Start Processing CustomerProcessor
+2026-01-04 08:14:18,978 - INFO - Finish Processing CustomerProcessor
+2026-01-04 08:14:18,978 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-04 08:14:19,542 - INFO - End Processing MashhadCustomerProcessor
+2026-01-04 08:28:08,410 - INFO - Start Processing CustomerProcessor
+2026-01-04 08:28:09,511 - INFO - Finish Processing CustomerProcessor
+2026-01-04 08:28:09,511 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-04 08:28:10,187 - INFO - End Processing MashhadCustomerProcessor
+2026-01-05 09:43:04,565 - INFO - Start Processing CustomerProcessor
+2026-01-05 09:43:05,384 - INFO - Finish Processing CustomerProcessor
+2026-01-05 09:43:05,385 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-05 09:43:05,867 - INFO - End Processing MashhadCustomerProcessor
+2026-01-11 10:53:47,437 - INFO - Start Processing CustomerProcessor
+2026-01-11 10:53:48,289 - INFO - Finish Processing CustomerProcessor
+2026-01-11 10:53:48,289 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-11 10:53:48,868 - INFO - End Processing MashhadCustomerProcessor
+2026-01-12 12:54:11,686 - INFO - Start Processing CustomerProcessor
+2026-01-12 12:58:55,466 - INFO - Start Processing CustomerProcessor
+2026-01-12 13:03:12,952 - INFO - Start Processing CustomerProcessor
+2026-01-12 13:06:27,104 - INFO - Start Processing CustomerProcessor
+2026-01-12 13:07:18,748 - INFO - Finish Processing CustomerProcessor
+2026-01-12 13:07:18,748 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-12 13:08:09,417 - INFO - Start Processing CustomerProcessor
+2026-01-12 13:08:10,420 - INFO - Finish Processing CustomerProcessor
+2026-01-12 13:08:10,421 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-12 13:08:11,246 - INFO - End Processing MashhadCustomerProcessor
+2026-01-13 15:11:49,218 - INFO - Start Processing CustomerProcessor
+2026-01-13 15:11:50,301 - INFO - Finish Processing CustomerProcessor
+2026-01-13 15:11:50,301 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-13 15:11:51,046 - INFO - End Processing MashhadCustomerProcessor
+2026-01-14 13:02:37,508 - INFO - Start Processing CustomerProcessor
+2026-01-14 13:02:38,708 - INFO - Finish Processing CustomerProcessor
+2026-01-14 13:02:38,708 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-14 13:02:39,173 - INFO - End Processing MashhadCustomerProcessor
+2026-01-14 13:05:28,901 - INFO - Start Processing CustomerProcessor
+2026-01-14 13:05:30,223 - INFO - Finish Processing CustomerProcessor
+2026-01-14 13:05:30,223 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-14 13:07:59,715 - INFO - Start Processing CustomerProcessor
+2026-01-14 13:08:01,551 - INFO - Finish Processing CustomerProcessor
+2026-01-14 13:08:01,551 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-14 13:09:09,497 - INFO - Start Processing CustomerProcessor
+2026-01-14 13:09:11,881 - INFO - Finish Processing CustomerProcessor
+2026-01-14 13:09:11,881 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-14 13:09:12,318 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 10:47:43,059 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:47:45,839 - INFO - Finish Processing CustomerProcessor
+2026-01-18 10:47:45,839 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 10:47:46,359 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 10:53:45,807 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:55:04,574 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:55:19,307 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:55:31,684 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:55:43,935 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:56:05,819 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:56:30,066 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:56:43,563 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:56:50,290 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:57:28,108 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:57:49,129 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:58:30,304 - INFO - Start Processing CustomerProcessor
+2026-01-18 10:59:02,773 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:00:17,291 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:00:47,775 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:01:38,688 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:01:46,861 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:02:16,070 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:06:29,892 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:26:24,370 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:27:59,225 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:28:53,006 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:29:47,825 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:30:11,738 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:30:13,958 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:30:13,958 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:30:14,487 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:31:27,394 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:32:23,094 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:32:24,420 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:32:24,420 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:32:24,911 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:33:36,570 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:33:37,880 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:33:37,881 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:33:38,349 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:36:22,332 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:36:23,461 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:36:23,461 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:36:23,946 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:37:48,816 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:37:50,125 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:37:50,126 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:38:28,938 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:38:29,967 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:38:29,967 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:38:30,473 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:39:00,422 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:39:01,423 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:39:01,423 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:39:01,883 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:40:05,221 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:40:06,432 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:40:06,432 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:40:07,080 - INFO - Row Added:        Name  PhoneNumber  ... sum_na              index
+826  کوشا ژ   9394413662  ...      2  9394413662_کوشا ژ
+
+[1 rows x 11 columns]
+2026-01-18 11:40:07,080 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:41:03,183 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:41:04,357 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:41:04,358 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:41:05,121 - INFO - Row Added: Empty DataFrame
+Columns: [Name, PhoneNumber, Address, Province, City, Job, CartNum, PostCode, TimeAdded, sum_na, index]
+Index: []
+2026-01-18 11:41:05,121 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:42:51,809 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:42:52,817 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:42:52,817 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:42:53,279 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:43:46,349 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:43:47,726 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:43:47,726 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:43:48,225 - INFO - Row Added:         Name  PhoneNumber  ... sum_na              index
+1311  کوشا ژ   9394413663  ...      2  9394413663_کوشا ژ
+
+[1 rows x 11 columns]
+2026-01-18 11:43:48,225 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:45:20,513 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:45:21,834 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:45:21,846 - INFO - Row Added:         Name  PhoneNumber  ... sum_na              index
+1311  کوشا ژ   9394413663  ...      2  9394413663_کوشا ژ
+
+[1 rows x 11 columns]
+2026-01-18 11:45:21,846 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:45:22,683 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:49:01,983 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:49:02,967 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:49:02,972 - INFO - Row Added:         Name  PhoneNumber  ... sum_na              index
+1311  کوشا ژ   9394413663  ...      2  9394413663_کوشا ژ
+
+[1 rows x 11 columns]
+2026-01-18 11:49:02,972 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:49:03,435 - INFO - End Processing MashhadCustomerProcessor
+2026-01-18 11:49:03,439 - INFO - Row Added:        Name  PhoneNumber  ... sum_na              index
+826  کوشا ژ   9394413663  ...      2  9394413663_کوشا ژ
+
+[1 rows x 11 columns]
+2026-01-18 11:50:14,199 - INFO - Start Processing CustomerProcessor
+2026-01-18 11:50:15,315 - INFO - Finish Processing CustomerProcessor
+2026-01-18 11:50:15,315 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-18 11:50:15,824 - INFO - End Processing MashhadCustomerProcessor
+2026-01-21 09:04:48,897 - INFO - Start Processing CustomerProcessor
+2026-01-21 09:04:49,964 - INFO - Finish Processing CustomerProcessor
+2026-01-21 09:04:50,015 - INFO - Row Added:                          Name  ...                               index
+1311  سید یاسر  سیدی علیرضایی  ...  9057041190_سید یاسر  سیدی علیرضایی
+
+[1 rows x 11 columns]
+2026-01-21 09:04:50,015 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-21 09:04:50,607 - INFO - End Processing MashhadCustomerProcessor
+2026-01-21 09:04:50,611 - INFO - Row Added:                         Name  ...                               index
+826  سید یاسر  سیدی علیرضایی  ...  9057041190_سید یاسر  سیدی علیرضایی
+
+[1 rows x 11 columns]
+2026-01-24 07:27:21,529 - INFO - Start Processing CustomerProcessor
+2026-01-24 07:27:22,597 - INFO - Finish Processing CustomerProcessor
+2026-01-24 07:27:22,597 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-24 07:27:23,168 - INFO - End Processing MashhadCustomerProcessor
+2026-01-24 09:33:46,480 - INFO - Start Processing CustomerProcessor
+2026-01-24 09:33:47,358 - INFO - Finish Processing CustomerProcessor
+2026-01-24 09:33:47,358 - INFO - Start Processing MashhadCustomerProcessor
+2026-01-24 09:33:47,801 - INFO - End Processing MashhadCustomerProcessor
+2026-02-14 14:37:07,596 - INFO - Start Processing CustomerProcessor
+2026-02-14 14:40:16,391 - INFO - Start Processing CustomerProcessor
+2026-02-14 14:40:18,485 - INFO - Finish Processing CustomerProcessor
+2026-02-14 14:40:18,485 - INFO - Start Processing MashhadCustomerProcessor
+2026-02-14 14:40:19,444 - INFO - End Processing MashhadCustomerProcessor
+2026-02-14 14:47:49,812 - INFO - Start Processing CustomerProcessor
+2026-02-14 14:47:52,372 - INFO - Finish Processing CustomerProcessor
+2026-02-14 14:47:52,374 - INFO - Start Processing MashhadCustomerProcessor
+2026-02-14 14:47:53,676 - INFO - End Processing MashhadCustomerProcessor
+2026-02-14 14:59:50,632 - INFO - Start Processing CustomerProcessor
+2026-02-14 14:59:52,982 - INFO - Finish Processing CustomerProcessor
+2026-02-14 14:59:52,998 - INFO - Row Added:                  Name  PhoneNumber  ... sum_na                       index
+1334       نیما احمدی   9922089657  ...      0       9922089657_نیما احمدی
+1335      محمد  قادری   9932380685  ...      2      9932380685_محمد  قادری
+1336  عرفان  علیزاده    9304363819  ...      2  9304363819_عرفان  علیزاده 
+1337     مسعود  هاشمی   9354942563  ...      2     9354942563_مسعود  هاشمی
+
+[4 rows x 11 columns]
+2026-02-14 14:59:52,999 - INFO - Start Processing MashhadCustomerProcessor
+2026-02-14 14:59:54,003 - INFO - End Processing MashhadCustomerProcessor
+2026-02-14 14:59:54,013 - INFO - Row Added:                 Name  PhoneNumber  ... sum_na                       index
+837      محمد  قادری   9932380685  ...      2      9932380685_محمد  قادری
+838  عرفان  علیزاده    9304363819  ...      2  9304363819_عرفان  علیزاده 
+839     مسعود  هاشمی   9354942563  ...      2     9354942563_مسعود  هاشمی
+
+[3 rows x 11 columns]
+2026-04-19 09:26:11,907 - INFO - Start Processing CustomerProcessor
+2026-04-19 09:26:14,138 - INFO - Finish Processing CustomerProcessor
+2026-04-19 09:26:14,157 - INFO - Row Added:                        Name  ...                             index
+160        محمود  غفوری منش  ...       9022805930_محمود  غفوری منش
+826           محمد علی نوری  ...          9212108799_محمد علی نوری
+1339   بی نام (09191733802)  ...   9191733802_بی نام (09191733802)
+1340                    چ چ  ...                    9217292734_چ چ
+1341         Hadi Ahmadzade  ...         9930002152_Hadi Ahmadzade
+1342             محمد قدرتب  ...             9220281699_محمد قدرتب
+1343      برهان  کریم زاده   ...      9911083898_برهان  کریم زاده 
+1344    امیر محمد  قلی پور   ...    9308702595_امیر محمد  قلی پور 
+1345              علی نامجو  ...              9021549131_علی نامجو
+1346          علی خان حبیبی  ...          9016425482_علی خان حبیبی
+1347     یعقوب  مصطفی دوست   ...     9147987123_یعقوب  مصطفی دوست 
+1348              صبری کوهی  ...              9143328657_صبری کوهی
+1349            حسن  شجاعی   ...            9913125633_حسن  شجاعی 
+1350    محمد ابراهیم  قائمی  ...    9153386472_محمد ابراهیم  قائمی
+1351           عارف  دائمی   ...           9336919282_عارف  دائمی 
+1352      احمدرضا علی پناهی  ...      9399575020_احمدرضا علی پناهی
+1353    حاج امیر  گل اندام   ...    9035559947_حاج امیر  گل اندام 
+1354  امیر حسین  شاه محمدی   ...  9217727146_امیر حسین  شاه محمدی 
+1355       اسماعیل نیک سیرت  ...       9056402629_اسماعیل نیک سیرت
+1356       امیرعلی یاراحمدی  ...       9396152942_امیرعلی یاراحمدی
+1357       طارق داداش زاده   ...       9052180076_طارق داداش زاده 
+1358         محمد حسین  شیخ  ...         9022105582_محمد حسین  شیخ
+1359         یاسین سالارزهی  ...         9037965981_یاسین سالارزهی
+1360             یاسر سالار  ...             9031686516_یاسر سالار
+1361           مهدی جلیلیان  ...           9183557155_مهدی جلیلیان
+1362       هایده  دلیرپسند   ...       9194076913_هایده  دلیرپسند 
+1363          علی ستاری پور  ...          9120515801_علی ستاری پور
+
+[27 rows x 11 columns]
+2026-04-19 09:26:14,158 - INFO - Start Processing MashhadCustomerProcessor

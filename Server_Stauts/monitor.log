@@ -1,0 +1,18 @@
+2026-05-06 12:50:21,728 | INFO | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-06 12:50:21,728 | INFO | Added job "update_all_servers" to job store "default"
+2026-05-06 12:50:21,728 | INFO | Scheduler started
+2026-05-06 12:50:22,831 | WARNING | RAM HIGH | IP: 192.168.0.183 | RAM: 32.3% | CPU: 3.9% | STATUS: هشدار 🟠 (مصرف RAM بالا)
+2026-05-06 12:50:22,856 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.194:8000
+2026-05-06 12:50:22,856 | INFO | [33mPress CTRL+C to quit[0m
+2026-05-06 12:50:22,860 | INFO |  * Restarting with stat
+2026-05-06 12:50:23,411 | INFO | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-06 12:50:23,411 | INFO | Added job "update_all_servers" to job store "default"
+2026-05-06 12:50:23,411 | INFO | Scheduler started
+2026-05-06 12:50:24,519 | WARNING | RAM HIGH | IP: 192.168.0.183 | RAM: 32.4% | CPU: 3.1% | STATUS: هشدار 🟠 (مصرف RAM بالا)
+2026-05-06 12:50:24,530 | WARNING |  * Debugger is active!
+2026-05-06 12:50:24,535 | INFO |  * Debugger PIN: 136-900-275
+2026-05-06 12:50:24,545 | INFO | 127.0.0.1 - - [06/May/2026 12:50:24] "GET /api/status HTTP/1.1" 200 -
+2026-05-06 12:50:24,729 | INFO | 127.0.0.1 - - [06/May/2026 12:50:24] "GET /api/servers HTTP/1.1" 200 -
