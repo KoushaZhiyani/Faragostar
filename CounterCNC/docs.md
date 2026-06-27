@@ -496,16 +496,12 @@ pip install -r requirements.txt
 ## اجرای سرور TCP
 
 ```bash
-python main.py
+ & d:/folder_project_city/venv/Scripts/python.exe d:/folder_project_city/CounterCNC/main.py
 ```
-
-## اجرای داشبورد
-
 ```bash
-python dashboard.py
-```
+ & d:/folder_project_city/venv/Scripts/python.exe d:/folder_project_city/CounterCNC/network_watcy
+ ```
 
----
 
 # مهندسی معکوس پروتکل
 
