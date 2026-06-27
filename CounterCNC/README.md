@@ -148,12 +148,6 @@ headers = {
 ### Start all services
 
 ```bash
-run_script.bat
-```
-
-Or manually:
-
-```bash
 python main.py
 ```
 
